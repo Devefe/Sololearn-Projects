@@ -1,0 +1,43 @@
+.techTitle {
+  text-align: center;
+}
+
+.technologiesSection {
+  margin-bottom: 100px;
+  border: 1px solid whitesmoke;
+  padding: 50px;
+  width: 60%;
+}
+
+.technologiesSection h1 {
+  margin: 25px auto 6px;
+}
+
+.technologiesImg {
+  height: 70px;
+  width: auto;
+  padding: 10px 12px;
+}
+
+.technologiesUl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.technologiesLi {
+  border-radius: 50px;
+  margin: 5px 20px;
+}
+
+.technologiesLi:hover {
+  transition: all 1s ease-in-out;
+  background-color: whitesmoke;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 425px) {
+  .technologiesSection {
+    width: 95%;
+  }
+}
